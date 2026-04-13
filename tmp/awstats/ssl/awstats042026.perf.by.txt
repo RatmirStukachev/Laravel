@@ -1,0 +1,705 @@
+AWSTATS DATA FILE 8.0 (build 20240604)
+# If you remove this file, all statistics for date 202604 will be lost/reset.
+# Last config file used to build this data file was /home/perfby/tmp/awstats/ssl/awstats.perf.by.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 28
+POS_GENERAL 2077                
+POS_TIME 2760                
+POS_VISITOR 10291               
+POS_DAY 14239               
+POS_DOMAIN 3564                
+POS_LOGIN 4020                
+POS_ROBOT 4175                
+POS_WORMS 4730                
+POS_EMAILSENDER 4861                
+POS_EMAILRECEIVER 5004                
+POS_SESSION 14530               
+POS_FILESIZE 25631               
+POS_REQUESTTIME 25774               
+POS_SIDER 14738               
+POS_FILETYPES 5139                
+POS_DOWNLOADS 5266                
+POS_OS 5314                
+POS_BROWSER 5520                
+POS_SCREENSIZE 6373                
+POS_UNKNOWNREFERER 6447                
+POS_UNKNOWNREFERERBROWSER 7024                
+POS_ORIGIN 7351                
+POS_SEREFERRALS 7493                
+POS_PAGEREFS 7677                
+POS_SEARCHWORDS 7963                
+POS_KEYWORDS 8115                
+POS_MISC 2424                
+POS_ERRORS 8174                
+POS_CLUSTER 3876                
+POS_SIDER_404 8301                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20260409103451 646 161527 19231992560814
+FirstTime 20260401014854
+LastTime 20260409103451
+LastUpdate 20260409151211 646 0 646 0 0
+TotalVisits 151                 
+TotalUnique 95                  
+MonthHostsKnown 0                   
+MonthHostsUnknown 95                  
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+PDFSupport 0 0 0
+TotalMisc 0 0 0
+QuickTimeSupport 0 0 0
+JavaEnabled 0 0 0
+FlashSupport 0 0 0
+AddToFavourites 0 0 0
+RealPlayerSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+JavascriptDisabled 0 0 0
+DirectorSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 14 14 288175 3 7 448281
+1 11 11 249484 5 5 67596
+2 4 4 65572 3 3 56751
+3 5 5 478344 13 13 563352
+4 1 1 19668 1 1 136398
+5 0 0 0 7 7 64327
+6 49 49 982348 3 3 103272
+7 8 8 194388 30 30 497425
+8 27 27 964081 7 8 289565
+9 134 134 18789824 32 38 960792
+10 86 87 3735014 10 13 1516081
+11 71 71 2979895 8 8 2077022
+12 141 143 22156947 17 17 501814
+13 79 79 2822967 126 126 2116840
+14 65 65 3152375 17 17 476240
+15 20 20 632030 5 6 229538
+16 43 43 1052617 5 6 127505
+17 140 140 3820631 9 19 1826955
+18 281 281 7109341 8 9 362146
+19 123 123 18306378 1397 1397 30383502
+20 15 15 293841 90 93 2355484
+21 15 15 315139 20 20 454270
+22 64 64 2074296 4 13 893911
+23 35 35 4434485 6 6 60381
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 25 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 17
+by 1227 1230 88897611
+us 146 146 4351796
+cz 13 13 238360
+au 7 7 98469
+ca 7 7 511358
+ru 6 6 102033
+se 5 5 101850
+gb 5 5 221939
+cn 4 4 62724
+de 3 3 194553
+in 2 2 31363
+ir 1 1 19654
+be 1 1 15680
+fr 1 1 15677
+ua 1 1 15684
+uz 1 1 19421
+ie 1 1 19668
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 25 first Hits must be first (order not required for others)
+BEGIN_ROBOT 11
+YandexBot/ 1692 35987354 20260409034808 0
+Googlebot/ 18 286983 20260407051940 0
+yandex 17 371462 20260408001311 0
+Baiduspider/ 11 203861 20260409071559 0
+facebookexternalhit/ 2 232397 20260409043443 0
+[\s_+:,\.\;\/\\-]bot 2 35114 20260402091739 0
+bot[\s_+:,\.\;\/\\-] 2 35288 20260407205301 0
+curl 1 136398 20260408192903 0
+bingbot/ 1 15679 20260404131925 0
+scanner 1 95999 20260402140547 0
+crawl 1 19171 20260407112420 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 3
+js 3 156534 0 0
+Unknown 1210 89084632 0 0
+html 221 5676674 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 0
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 9
+android12 2 2
+win10 1047 1044
+ios_iphone 25 25
+Unknown 27 27
+macosx15 12 12
+linux 6 6
+androidmarshmallow 28 28
+android 1 1
+android10 286 286
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 39
+chrome84.0.4147.89 1 1
+chrome113.0.0.0 2 2
+mozilla 17 17
+chrome138.0.7204.23 1 1
+chrome146.0.7680.164 1 1
+chrome146.0.7680.177 24 24
+iphone 1 1
+opera129.0.0.0 1 1
+chrome144.0.0.0 345 344
+safari 9 9
+chrome134.0.0.0 1 1
+chrome146.0.0.0 844 842
+safari18.0.1 2 2
+chrome80.0.3987.162 1 1
+chrome83.0.4103.122 1 1
+chrome91.0.4472.114 1 1
+chrome120.0.0.0 2 2
+safari26.3 9 9
+chrome124.0.0.0 7 7
+chrome88.0.4324.190 5 5
+chrome100.0.4896.127 2 2
+chrome142.0.0.0 6 6
+chrome138.0.0.0 79 79
+Unknown 10 10
+chrome125.0.0.0 2 2
+chrome114.0.0.0 1 1
+chrome110.0.0.0 1 1
+chrome129.0.0.0 4 4
+safari17.3.1 4 4
+chrome99.0.4844.51 4 4
+chrome145.0.0.0 2 2
+chrome142.0.7444.303 14 14
+chrome135.0.0.0 1 1
+chrome142.0.7444.162 2 2
+chrome109.0.0.0 10 10
+chrome139.0.0.0 2 2
+chrome131.0.0.0 2 2
+safari17.6 12 12
+chrome105.0.0.0 1 1
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 7
+GoogleOther 20260406130713
+Mozilla/5.0_(compatible;_InternetMeasurement/1.0;__https://internet-measurement.com/) 20260403075626
+Hello_from_Palo_Alto_Networks,_find_out_more_about_our_scans_in_https://docs-cortex.paloaltonetworks.com/r/1/Cortex-Xpanse/Scanning-activity 20260405140254
+okhttp/5.3.0 20260401150453
+Mozilla/5.0_(compatible;_CensysInspect/1.1;__https://about.censys.io/) 20260407224252
+WhatsApp/3.0.0.0_A 20260403073144
+Mozilla/5.0_(compatible;_Dataprovider.com) 20260402093458
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 4
+Hello_from_Palo_Alto_Networks,_find_out_more_about_our_scans_in_https://docs-cortex.paloaltonetworks.com/r/1/Cortex-Xpanse/Scanning-activity 20260405140254
+okhttp/5.3.0 20260401150453
+WhatsApp/3.0.0.0_A 20260403073144
+GoogleOther 20260406130713
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 288 288
+From1 0 0
+From2 10 10
+From3 5 5
+From4 1128 1131
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 3
+yandex 5 5
+www_google_com 4 4
+ya_ru 1 1
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 25 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 5
+https://www.facebook.com 1 1
+https://e.mail.ru 1 1
+https://lm.facebook.com 1 1
+https://vh152.hoster.by:2083 1 1
+http://m.facebook.com 1 1
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 25 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 4
+422 13 3910
+301 18 4819
+404 76 9137713
+302 10 3300
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referrer
+BEGIN_SIDER_404 37
+/storage/products/product-2309558-1773418306.jpg 1 -
+/storage/products/product-2321841-1773053191.jpg 1 -
+/catalog/sadovaia-texnika/lestnicy 1 https://perf.by/catalog/sadovaia-texnika
+/apple-touch-icon.png 1 -
+/storage/products/product-2539018-1773418562.jpg 1 -
+/sitemap.xml 1 -
+/txets.php 1 www.google.com
+/llms.txt 1 -
+/storage/products/product-1924280-1772181889.jpg 1 -
+/build/i/ul-checkbox-before.svg 21 https://perf.by/build/assets/app-hT2D_FEZ.css
+/wp-content/txets.php 1 www.google.com
+/shell 2 -
+/storage/products/product-2309550-1773418302.jpg 1 -
+/webshell.php 2 -
+/humans.txt 1 -
+/catalog/avtomobilnye-aksessuary/zariadnye-i-pusko-zariadnye-ustroistva 4 https://perf.by/catalog/avtomobilnye-aksessuary
+/catalog/instrument/uglomery-i-uklonomery-urovni 2 https://perf.by/catalog/instrument
+/catalog/aksessuary/domkraty 8 https://perf.by/
+/security.txt 1 -
+/storage/products/product-2309560-1773418307.jpg 1 -
+/product/samovsasyvaiushhii-nasos-pw370-grandfar 3 -
+/shell.php 2 -
+/storage/products/product-2309552-1773418303.jpg 1 -
+/.well-known/traffic-advice 1 -
+/catalog/sadovaia-texnika/aeratory 1 https://perf.by/catalog/sadovaia-texnika
+/ads.txt 1 -
+/storage/products/product-677752-1773053194.jpg 1 -
+/product/multimate-61249021 1 -
+/storage/products/product-1433203-1773418291.jpg 1 -
+/storage/products/product-2331772-1773418882.jpg 1 -
+/webshell 2 -
+/catalog/stroitelnyi-instrument/lobziki 1 -
+/.well-known/security.txt 1 -
+/storage/products/product-1860880-1773418295.jpg 1 -
+/favicon.png 1 -
+/catalog/avtomobilnye-aksessuary/avtomobilnye-kompressory 3 https://perf.by/product/kompressor-avtomobilnyi-crown-ct36066
+/product/cirkuliacionnyi-nasos-as32-6-180 1 -
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 25 first Hits must be first (order not required for others)
+BEGIN_VISITOR 95
+37.214.30.122 609 610 45442395 20260409102806 20260409094604 /admin/site-menus
+82.209.222.116 394 396 34660420 20260409103451 20260409095936 /catalog/sadovaia-texnika/gazonokosilki
+37.214.34.8 116 116 6829295 20260408011911
+46.216.172.40 30 30 483147 20260408171151
+66.249.81.164 16 16 352666 20260408234006
+109.126.189.202 14 14 290192 20260402132617
+149.56.150.248 12 12 1433488 20260402093428
+66.249.81.163 12 12 266229 20260408175446
+151.249.178.149 12 12 222682 20260402115100
+192.178.11.100 11 11 227739 20260408234007
+37.215.40.170 10 10 205998 20260406090418
+192.178.11.99 10 10 205697 20260408234007
+37.212.2.133 9 9 174650 20260404192837
+192.178.4.99 9 9 148772 20260406023104
+192.178.4.100 8 8 129895 20260406130713
+192.178.4.101 8 8 134713 20260406175840
+139.59.177.211 7 7 98469 20260407062425
+66.249.81.165 7 7 135488 20260408160947
+66.102.9.134 6 6 125985 20260408200553
+178.163.158.163 6 6 119568 20260408162039
+37.214.63.102 6 6 91607 20260402183002
+192.178.11.101 5 5 110362 20260408175447
+45.88.211.236 5 5 67000 20260407015445
+178.126.134.250 5 5 110966 20260402100208
+37.214.5.67 5 5 86931 20260406225232
+141.98.11.224 2 2 174900 20260403183636
+162.222.197.123 1 1 15679 20260406180814
+34.227.109.57 1 1 15680 20260401143202
+77.90.185.5 2 2 174900 20260405125327
+162.120.187.255 1 1 19340 20260401185836
+66.249.83.96 1 1 15611 20260408175530
+198.64.228.0 1 1 15682 20260401212215
+204.76.203.25 1 1 95999 20260405034605
+173.252.127.12 1 1 15681 20260406150834
+93.171.125.161 1 1 15678 20260403131856
+46.216.28.44 2 2 30158 20260401223538
+91.166.69.153 1 1 15677 20260406130712
+93.158.91.11 1 1 19513 20260408092203
+185.247.137.24 1 1 15683 20260403075626
+149.102.244.26 1 1 15679 20260401145122
+79.137.138.154 1 1 19654 20260408115559
+42.194.128.82 1 1 15680 20260403175921
+79.137.138.70 1 1 19653 20260408115557
+46.175.168.180 2 2 44920 20260407152535
+149.56.18.38 2 2 15678 20260403072527
+146.70.202.103 1 1 15682 20260401140435
+209.139.122.45 1 1 15681 20260401212215
+94.158.58.196 1 1 19421 20260401195534
+192.36.109.78 1 1 23020 20260405062629
+103.180.200.203 2 2 31363 20260403073144
+46.216.152.46 2 2 30113 20260404192630
+62.141.44.236 1 1 19653 20260408113444
+3.239.112.16 2 2 31362 20260401150553
+46.216.225.215 2 2 31360 20260403125231
+46.216.224.35 2 2 30117 20260404131118
+14.152.91.206 1 1 15682 20260405185627
+192.95.37.141 1 1 15682 20260406180818
+198.235.24.219 1 1 95999 20260401070738
+195.178.110.64 1 1 15682 20260405160650
+93.159.230.84 1 1 15682 20260405181725
+151.245.101.127 1 1 19654 20260408153801
+66.102.9.135 4 4 89365 20260408175415
+66.102.9.133 2 2 41414 20260408175517
+46.56.161.16 4 4 88764 20260409002640
+74.125.215.163 4 4 85324 20260407220435
+51.81.71.228 1 1 15677 20260401212221
+205.210.31.8 1 1 95999 20260401014854
+14.17.85.226 1 1 15681 20260402013147
+149.56.150.120 3 3 31361 20260402093458
+183.60.225.231 1 1 15681 20260402151410
+91.124.17.208 1 1 15684 20260401140742
+205.210.31.178 1 1 95999 20260404155326
+144.217.153.221 1 1 15680 20260401212221
+20.80.101.26 2 2 270142 20260408034035
+66.249.83.110 1 1 14429 20260404131121
+31.13.115.8 1 1 19668 20260409043405
+173.239.198.159 1 1 15679 20260404084856
+185.247.137.240 1 1 15679 20260402205015
+199.45.154.114 1 1 19578 20260407224252
+192.95.37.188 1 1 15681 20260406180818
+104.199.120.148 1 1 15678 20260405125330
+198.235.24.142 1 1 95999 20260401034345
+147.185.132.24 1 1 95999 20260405095609
+82.22.83.199 1 1 15680 20260401140637
+192.36.109.70 1 1 24716 20260405062627
+65.108.235.91 1 1 15682 20260402064320
+46.53.241.104 4 4 66482 20260406095204
+178.123.76.65 1 1 16347 20260406090053
+198.235.24.53 1 1 95999 20260405140254
+46.182.51.59 1 1 19632 20260408112835
+185.18.107.103 1 1 15680 20260406180815
+192.36.109.120 1 1 15680 20260405062625
+46.216.65.79 3 3 44549 20260401132310
+192.36.109.73 1 1 18921 20260405062628
+44.222.20.176 2 2 31359 20260401085353
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 9
+20260401 26 26 651110 19
+20260402 55 55 2226082 13
+20260403 11 11 300342 7
+20260404 18 18 393955 8
+20260405 28 28 857928 19
+20260406 117 117 2747037 17
+20260407 360 362 35916366 14
+20260408 744 744 49293914 47
+20260409 72 73 2531106 7
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 7
+15mn-30mn 6
+0s-30s 94
+30mn-1h 5
+30s-2mn 19
+2mn-5mn 7
+5mn-15mn 11
+1h+ 7
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 25 first Pages must be first (order not required for others)
+BEGIN_SIDER 221
+/livewire/update 359 55192939 0 0
+/ 221 5676674 91 57
+/catalog 60 1371454 3 13
+/_debugbar/open 37 8272938 0 0
+/catalog/avtomobilnye-aksessuary 36 1276580 4 0
+/livewire/upload-file 34 3148 0 0
+/catalog/sadovaia-texnika 33 1364860 1 2
+/catalog/instrument 29 1185165 3 2
+/search 28 587821 5 8
+/catalog/avtomobilnye-aksessuary/nabory-instrumenta 20 764506 3 3
+/admin/categories 19 1131080 0 1
+/catalog/avtomobilnye-aksessuary/zariadnye-i-pusko-zariadnye-ustroistva 16 404511 2 0
+/catalog/aksessuary 14 423941 1 1
+/admin/sliders 12 226006 0 0
+/admin/page-contents 12 208829 1 0
+/catalog/stroitelnyi-instrument 11 291495 2 3
+/about-us 10 233759 0 0
+/catalog/silovaia-texnika 10 708054 0 0
+/catalog/akkumulyatornyi-instrument 10 242113 0 0
+/admin/brands 9 189829 1 1
+/admin/pages 9 181079 0 0
+/catalog/pnevmoinstrument 9 356459 0 0
+/contacts 9 353400 0 4
+/delivery 9 208088 0 1
+/payments 8 209987 0 0
+/catalog/instrument/bolgarki-uglovye-slifmasiny 6 171719 3 0
+/product/gabw1301 1 37558 0 0
+/order/success/23 4 61090 1 3
+/catalog/sadovaia-texnika/betonosmesiteli 5 135654 2 2
+/catalog/dacha-sad-i-ogorod 6 173224 0 1
+/product/elektriceskaia-teplovaia-puska-sonora-k-22 1 16206 1 0
+/catalog/sadovaia-texnika/skarifikatory-aeratory 7 276767 0 0
+/catalog/silovaia-texnika/svarochnoe-oborudovanie 2 90907 0 0
+/catalog/izmeritelnyi-instrument 1 40311 0 0
+/product/elektriceskaia-teplovaia-puska-meh-3002 1 16273 0 0
+/catalog/fonari 2 51317 0 0
+/catalog/osveshenie 1 17204 0 0
+/catalog/avtomobilnye-aksessuary/avtomobilnye-kompressory 7 203255 0 3
+/admin/products/2343/edit 1 55874 0 0
+/product/samovsasyvaiushhii-nasos-pw370-grandfar 2 38761 2 2
+/catalog/stroitelnyi-instrument/steplery-gvozdezabivateli 1 18319 0 0
+/catalog/instrument/pistolety 1 42804 0 0
+/cart/update 1 35009 0 0
+/catalog/sadovaia-texnika/aeratory 4 147150 0 0
+/catalog/dacha-sad-i-ogorod/vertikuttery-i-aeratory 2 50721 0 0
+/product/pnevmopistolet-sg-1065-sg1065000025 1 38218 0 0
+/product/zariadnoe-ustroistvo-zu-20li-90022011-20v 3 60157 0 0
+/product/zariadnoe-ustroistvo-dc10wd-108-12v 4 79876 0 1
+/product/pnevmogaikovert-kaaf1605 1 38228 0 0
+/catalog/sadovaia-texnika/pily-cepnye 1 46437 0 0
+/catalog/instrument/gravery 4 91872 2 1
+/product/cirkuliacionnyi-nasos-star-z-nova-t 4 82207 0 1
+/catalog/stanki/metalloobrabatyvaushie-stanki 1 17309 0 0
+/product/gazovaia-teplovaia-puska-mgh-1201 1 16045 0 1
+/catalog/stroitelnyi-instrument/elektrodreli-i-dreli-shurupoverty 4 92141 1 1
+/product/zariadnoe-ustroistvo-dc1822-72-18v 1 20009 0 0
+/catalog/instrument/vibroslifmasiny-renovatory 2 65653 0 0
+/product/benzinovaia-gazonokosilka-lm4630 1 40892 0 0
+/product/elektriceskaia-teplovaia-puska-meh-3001 2 32701 1 1
+/catalog/shtativy-i-monopody-dlya-foto-i-videokamer 1 32843 0 0
+/product/akkumuliatornaia-duc204z-bez-akb 4 81298 1 3
+/catalog/sadovaia-texnika/ledobury 1 39022 0 0
+/catalog/sadovaia-texnika/gruzopodemnoe-oborudovanie 1 39775 0 0
+/admin/pages/1/edit 3 52823 0 0
+/admin/sliders/2/edit 4 71444 0 0
+/product/zariadnoe-ustroistvo-fc-2110-1-all1-18v 4 81209 1 0
+/catalog/vibrotehnika 1 37866 0 0
+/catalog/spricy-dlia-masla-i-smazki 2 48037 0 0
+/catalog/silovaia-texnika/kompressori 2 89529 0 0
+/product/universalnyi-nabor-gcai151r-151-predmet 1 38975 0 0
+/product/dizelnaia-teplovaia-puska-atacama-dw-20 1 16586 0 0
+/product/zariadnoe-ustroistvo-ld-4004-18v 1 19968 0 0
+/product/aeratorskarifikator-wortex-ae-3616-1-s-1500-vt-sir-36-sm-noziskoby 1 36969 0 0
+/catalog/gruzopodemnoe-oborudovanie/gidravlicheskie-telezhki 1 16926 1 1
+/catalog/teplovizory 1 31642 0 0
+/catalog/pnevmoinstrument/pnevmopistolety 4 160229 0 0
+/product/nabor-torcevyx-golovok-gcad4303-43-predmeta 1 16590 0 0
+/product/skarifikator-esc1840 1 38864 0 0
+/product/cirkuliacionnyi-nasos-star-z-204-3 4 87984 0 2
+/catalog/pressy 2 32456 1 2
+/product/zariadnoe-ustroistvo-pzu30-c1 1 20419 0 0
+/product/nabor-torcevyx-golovok-gcad1604-16-predmetov 3 115913 0 0
+/catalog/silovaia-texnika/elektro-i-benzorezy 1 40242 0 0
+/catalog/dacha-sad-i-ogorod/motobury-i-benzobury 1 18949 0 0
+/product/universalnyi-nabor-gcai9601-96-predmetov 2 76623 0 0
+/product/elektriceskaia-teplovaia-puska-sonora-kt-22 1 16279 1 0
+/catalog/instrument/pirometry-infrakrasnye-termometry 1 39581 0 0
+/catalog/promyslennye-pylesosy 1 20637 0 0
+/catalog/aksessuary/avtomobilnye-kompressory 1 19410 0 0
+/admin/site-menus 8 158936 0 0
+/product/skarifikator-gsc4840 1 20442 0 0
+/product/elektriceskaia-teplovaia-puska-meh-2001 1 16344 1 0
+/product/pusko-zariadnoe-ustroistvo-pzu50-c1 1 20615 0 0
+/product/universalnyi-nabor-instrumentov-gcai4601-46-predmetov 1 38168 0 0
+/product/zariadnoe-ustroistvo-dcr-2112-18v 4 79432 0 0
+/product/gazovaia-teplovaia-puska-ignis-g-18 1 16342 1 0
+/catalog/stroitelnyi-instrument/mehanicheskie-steplery-i-gvozdezabivateli 2 37941 1 1
+/order/success/22 4 61076 3 2
+/product/elektriceskaia-teplovaia-puska-sonora-k-32 1 16204 0 1
+/catalog/zatochnye-stanki-tochila 1 21401 0 0
+/product/zariadnoe-ustroistvo-ch-161 3 60269 0 0
+/admin/products 4 194298 0 0
+/product/zariadnoe-ustroistvo-dcr-2118-18v 6 119886 0 0
+/product/zariadnoe-ustroistvo-hyundai-impx1ion 2 40042 0 0
+/admin/categories/149/edit 1 25363 0 0
+/catalog/instrument/detektory-metalla-provodki 1 20799 0 0
+/catalog/bury 1 16477 0 0
+/admin/categories/1/edit 1 49262 0 0
+/catalog/pnevmoinstrument/pnevmaticeskie-otboinye-molotki 1 44614 0 0
+/catalog/instrument/ruletki-i-mernye-lenty 1 36944 0 0
+/catalog/dacha-sad-i-ogorod/kliningovoe-oborudovanie-i-uborochnaya-tehnika 1 15049 0 0
+/admin/products/2378/edit 1 55967 0 0
+/catalog/navesnoe-oborudovanie-dlia-sadovoi-texniki 3 64375 0 1
+/admin/products/2377/edit 2 113516 0 0
+/product/gazonokosilka-em3716 1 38480 0 0
+/catalog/tehnika-dlya-doma/teplovye-pushki 1 19694 1 1
+/admin/orders 1 14113 0 0
+/catalog/sadovaia-texnika/lestnicy 1 36372 0 0
+/product/gcai3202-32-predmeta 1 37937 0 0
+/catalog/klimaticheskaya-tehnika 1 16713 0 0
+/product/benzopila-gcs-2451 1 16347 1 1
+/catalog/gruzopodemnoe-oborudovanie 2 50798 1 1
+/product/renovator-sm-3030-qe-1335906-sumka 2 40495 0 0
+/catalog/avtomobilnye-aksessuary/rucnye-i-elektriceskie-tali 1 38909 0 0
+/product/dizelnaia-teplovaia-puska-atacama-dw-55 1 16569 0 1
+/product/pnevmogaikovert-kaac1610 1 38248 0 0
+/_debugbar/assets/stylesheets 4 1398664 0 0
+/admin/deliveries 3 52159 0 0
+/product/nabor-instrumentov-gcad1822 1 37602 0 0
+/admin/categories/194/edit 2 50874 0 0
+/admin/payment-types 1 17641 0 0
+/catalog/instrument/aksessuary-i-prinadleznosti 2 59649 0 0
+/admin/sliders/1/edit 6 128304 0 0
+/product/dizelnaia-teplovaia-puska-atacama-d-20 1 16523 0 1
+/catalog/instrument/paialniki 1 40610 0 0
+/catalog/renovatory 2 53834 0 0
+/catalog/pressy/gidravlicheskie-pressy 1 16852 1 0
+/catalog/stanki 1 21757 0 0
+/product/zariadnoe-ustroistvo-dlia-elektroinstrumenta-fc-1515-1-all1-0329180 4 80278 2 0
+/catalog/sadovaia-texnika/noznicy-sadovye-nozi 1 36173 0 0
+/product/renovator-mfi-300 1 31018 0 0
+/catalog/instrument/surupoverty-gaikoverty-vintoverty 1 25312 0 1
+/admin/characteristics 3 57590 0 0
+/admin/page-contents/4/edit 1 14271 0 0
+/product/gazovaia-teplovaia-puska-ignis-g-12 1 16322 1 0
+/cart/add 8 272 0 0
+/product/dizelnaia-teplovaia-puska-atacama-dw-35 1 16571 1 1
+/catalog/benzoinstrument 3 353708 0 0
+/catalog/prinadleznosti-dlia-elektroinstrumenta 3 67765 0 0
+/order/create 3 201 0 0
+/catalog/pnevmoinstrument/pnevmogaikoverty 3 126557 0 0
+/catalog/sadovaia-texnika/pylesosy-vertikalnye 2 83553 0 0
+/admin 7 176667 0 0
+/catalog/sadovaia-texnika/gazonokosilki 8 327093 0 1
+/catalog/sadovaia-texnika/navesnoe-oborudovanie-dlia-sadovoi-texniki 1 39186 0 0
+/catalog/avtomobilnye-aksessuary/avtomobilnye-pylesosy 1 38207 0 0
+/product/kolesnaia-gazonokosilka-lm4622 1 40597 0 0
+/catalog/instrument/pylesosy-stroitelnye 2 89628 0 0
+/catalog/sadovaia-texnika/slangi 1 41414 0 0
+/catalog/instrument/uglomery-i-uklonomery-urovni 2 73714 0 0
+/catalog/bury-sadovye 1 16257 0 0
+/product/kompressor-avtomobilnyi-crown-ct36066 1 37644 0 0
+/catalog/betonomeshalki 1 39149 0 0
+/admin/page-contents/2/edit 2 34829 0 0
+/catalog/silovaia-texnika/vibratori 2 81752 0 0
+/privacy 2 75958 0 0
+/catalog/instrument/osvetitelnoe-oborudovanie 2 83231 0 0
+/product/zariadnoe-ustroistvo-fc-2120-2-all1-18v 4 81155 1 1
+/product/zariadnoe-ustroistvo-pzu20-c1 1 20388 0 0
+/catalog/sadovaia-texnika/izmelciteli 1 20936 0 1
+/product/dizelnaia-teplovaia-puska-etna-w-80 1 16400 0 0
+/product/plazmorez-solaris-aircut-pc-400 1 41410 0 0
+/catalog/tehnika-dlya-doma 1 21365 0 0
+/catalog/pnevmoinstrument/pnevmosteplery 1 39083 0 0
+/cart 7 191782 0 3
+/product/specinstrument-jeam0821-1-predmet 1 38216 0 0
+/product/pusko-zariadnoe-ustroistvo-pzu650-c 1 22237 0 0
+/catalog/ruchnoi-instrument 7 152210 0 0
+/admin/feed-back 2 33060 0 0
+/catalog/dacha-sad-i-ogorod/poliv-i-oroshenie 1 15001 0 1
+/product/nabor-torcevyx-golovok-gcai1701-17-predmetov 1 38016 0 0
+/admin/news 2 41113 0 0
+/admin/login 5 98586 0 1
+/admin/products/2338/edit 1 55654 0 0
+/catalog/instrument/akkumuliatory-i-zariadnye-ustroistva 8 245943 0 4
+/product/pnevmaticeskii-gaikovert-kaab1640 1 38158 0 0
+/catalog/dacha-sad-i-ogorod/lestnicy 1 30146 0 0
+/catalog/ruchnoi-instrument/nabory-instrumentov 3 61761 0 0
+/catalog/ruchnoi-instrument/zaklepochniki 1 17321 0 0
+/catalog/dacha-sad-i-ogorod/kustorezy-i-vysotorezy 2 43986 0 0
+/catalog/aksessuary/domkraty 3 332567 0 0
+/product/gazovaia-teplovaia-puska-mgh-1701 1 15969 0 0
+/admin/settings 3 80281 0 0
+/product/zariadnoe-ustroistvo-dc10wa-72-12v 1 19975 0 0
+/catalog/pnevmoinstrument/pnevmoslifmasiny 1 39550 0 0
+/product/elektriceskaia-teplovaia-puska-meh-2002 1 16333 0 1
+/catalog/ruchnye-i-elektricheskie-tali 1 16802 0 0
+/_debugbar/assets/javascript 4 1129032 0 0
+/product/ustroistvo-zariadnoe-edon-oaf21-1100cb 3 59861 0 0
+/catalog/pnevmaticheskii-instrument 1 21234 0 0
+/catalog/silovaia-texnika/vibropliti 1 40689 0 0
+/catalog/stroitelnyi-instrument/montazhnye-pily 1 18636 0 0
+/product/zariadnoe-ustroistvo-ch-502 1 20240 0 0
+/catalog/iashhiki-dlia-instrumentov 2 33577 1 1
+/product/ustroistvo-zariadnoe-edon-oaf21-400cb 1 19871 0 0
+/catalog/stroitelnyi-instrument/elektro-i-benzorezy 1 35501 0 0
+/catalog/tehnika-dlya-doma/elektroveniki 1 17124 0 0
+/catalog/radiopriemniki 1 31738 0 0
+/catalog/rashodnye-materialy-1 1 17103 0 0
+/product/zariadnoe-ustroistvo-dc18rd-144-18v 4 79695 0 1
+/catalog/izmeritelnyi-instrument/ruletki-i-mernye-lenty 1 29996 0 0
+/catalog/instrument/nabory-instrumentov 8 367000 0 0
+/admin/categories/242/edit 2 51126 0 0
+/catalog/instrument/pily 1 47053 0 0
+/catalog/stroitelnyi-instrument/elektrootvertki-i-shurupoverty 1 22905 0 0
+/catalog/aksessuary/zaryadnye-ustroistva-dlya-akkumulyatorov 1 21840 0 0
+/product/zariadnoe-ustroistvo-pdc-2102-21v 1 19816 0 0
+/product/gcai2406 2 75157 0 0
+/order/success/21 1 31116 0 1
+/catalog/instrument/spricy-dlia-masla-i-smazki 1 39743 0 0
+/catalog/drovokoly 1 32355 0 0
+END_SIDER
+
+# Payload Range - Payload Frequency
+BEGIN_FILESIZE 7
+5K+ 3074
+2K-5K 54
+1K-2K 75
+500-1K 10
+44-100 32
+0-44 10
+100-500 44
+END_FILESIZE
+
+# Request Time Range - Request Time Frequency
+BEGIN_REQUESTTIME 0
+END_REQUESTTIME

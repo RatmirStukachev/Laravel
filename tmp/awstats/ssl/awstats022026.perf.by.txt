@@ -1,0 +1,649 @@
+AWSTATS DATA FILE 8.0 (build 20240604)
+# If you remove this file, all statistics for date 202602 will be lost/reset.
+# Last config file used to build this data file was /home/perfby/tmp/awstats/ssl/awstats.perf.by.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 28
+POS_GENERAL 2077                
+POS_TIME 2742                
+POS_VISITOR 9212                
+POS_DAY 12453               
+POS_DOMAIN 3487                
+POS_LOGIN 3965                
+POS_ROBOT 4120                
+POS_WORMS 4545                
+POS_EMAILSENDER 4676                
+POS_EMAILRECEIVER 4819                
+POS_SESSION 12622               
+POS_FILESIZE 21165               
+POS_REQUESTTIME 21307               
+POS_SIDER 12830               
+POS_FILETYPES 4954                
+POS_DOWNLOADS 5082                
+POS_OS 5130                
+POS_BROWSER 5329                
+POS_SCREENSIZE 6123                
+POS_UNKNOWNREFERER 6197                
+POS_UNKNOWNREFERERBROWSER 6432                
+POS_ORIGIN 6623                
+POS_SEREFERRALS 6763                
+POS_PAGEREFS 6925                
+POS_SEARCHWORDS 7154                
+POS_KEYWORDS 7306                
+POS_MISC 2406                
+POS_ERRORS 7365                
+POS_CLUSTER 3821                
+POS_SIDER_404 7506                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20260301003803 33 5845 10670441600980
+FirstTime 0
+LastTime 20260228221635
+LastUpdate 20260301151459 33 0 32 0 0
+TotalVisits 131                 
+TotalUnique 80                  
+MonthHostsKnown 0                   
+MonthHostsUnknown 80                  
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+JavascriptDisabled 0 0 0
+JavaEnabled 0 0 0
+PDFSupport 0 0 0
+AddToFavourites 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+TotalMisc 0 0 0
+QuickTimeSupport 0 0 0
+DirectorSupport 0 0 0
+RealPlayerSupport 0 0 0
+FlashSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 0 0 0 0 0 0
+1 1 1 15015 3 4 264
+2 1 1 15015 2 2 264
+3 2 2 30413 889 889 14529944
+4 6 6 89497 558 559 9021787
+5 2 2 30980 151 151 2388566
+6 7 7 106469 9 9 65435
+7 2 2 155454 6 6 16387
+8 2 2 31165 3 3 83149
+9 3 3 170851 5 5 800
+10 1 1 15584 0 0 0
+11 7 7 163181 4 5 209868
+12 1 1 15580 4 4 89045
+13 59 59 1020066 4 5 0
+14 20 21 1107114 29 43 2298967
+15 120 120 6318471 19 20 1020852
+16 92 92 2025652 8 9 65929
+17 9 9 127380 6 7 306
+18 184 185 10250985 17 22 316439
+19 452 452 30805769 7 11 405990
+20 315 315 32611999 4 4 31364
+21 186 186 16789122 9 13 124679
+22 141 141 14395983 6 11 394648
+23 51 51 790424 4 13 420352
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 25 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 19
+by 1428 1430 113005533
+us 196 196 3473920
+ru 15 15 234927
+de 4 4 61201
+gb 3 3 45995
+gr 2 2 30597
+il 2 2 30796
+it 2 2 30794
+jp 2 2 15397
+au 1 1 15015
+cn 1 1 15580
+ro 1 1 15397
+se 1 1 15015
+ca 1 1 15398
+iq 1 1 15016
+ph 1 1 15398
+cl 1 1 15397
+nl 1 1 15395
+ng 1 1 15398
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 25 first Hits must be first (order not required for others)
+BEGIN_ROBOT 8
+YandexBot/ 1579 26034337 20260228204812 0
+checker 4 62233 20260226183738 0
+Go\-http\-client/ 2 15585 20260226050202 0
+scrapy 2 30031 20260227120557 0
+bingbot/ 2 30796 20260228202752 0
+TelegramBot 2 34258 20260228153532 0
+curl 1 0 20260225220123 0
+bot[\s_+:,\.\;\/\\-] 1 15582 20260226150501 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 3
+js 2 104356 0 0
+Unknown 1518 114458345 0 0
+html 146 2519468 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 0
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 9
+ios_iphone 2 2
+linux 16 16
+androidmarshmallow 1 1
+linuxubuntu 4 4
+win7 1 1
+Unknown 6 6
+win10 1241 1239
+macosx15 3 3
+android10 392 392
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 37
+chrome144.0.0.0 4 4
+firefox104.0 2 2
+chrome122.0.0.0 1 1
+safari9.0 1 1
+chrome109.0.0.0 1 1
+firefox113.0 4 4
+chrome132.0.6834.97 1 1
+chrome94.0.4606.61 1 1
+chrome104.0.5112.102 1 1
+firefox124.0 2 2
+netscape5.0 1 1
+opera127.0.0.0 1 1
+chrome135.0.0.0 1 1
+chrome142.0.0.0 119 118
+chrome104.0.0.0 1 1
+chrome113.0.0.0 1 1
+chrome128.0.0.0 2 2
+chrome99.0.4844.51 2 2
+chrome117.0.0.0 2 2
+chrome141.0.7390.0 2 2
+iphone 1 1
+chrome105.0.0.0 1 1
+chrome138.0.7204.23 1 1
+chrome134.0.0.0 8 8
+opera126.0.0.0 1 1
+chrome134.0.6998.107 1 1
+chrome138.0.0.0 157 157
+chrome84.0.4147.89 2 2
+chrome125.0.0.0 2 2
+Unknown 5 5
+chrome145.0.0.0 1323 1322
+chrome111.0.5563.65 1 1
+chrome131.0.0.0 3 3
+firefox120.0 3 3
+chrome116.0.0.0 1 1
+chrome139.0.0.0 4 4
+firefox65.0 2 2
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 4
+req/v3_(https://github.com/imroc/req) 20260228151316
+Mozilla/5.0_CMSDetector 20260228185205
+{USER_AGENT} 20260228043608
+okhttp/5.3.0 20260228161822
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 3
+{USER_AGENT} 20260228043608
+okhttp/5.3.0 20260228161822
+req/v3_(https://github.com/imroc/req) 20260228151316
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 262 262
+From1 0 0
+From2 1 1
+From3 4 4
+From4 1397 1399
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 1
+www_google_ie 1 1
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 25 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 2
+https://by.all-url.info/wrd/perf.by/ 3 3
+https://by.all-url.info/by/perf.by/ 1 1
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 25 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 5
+302 28 8760
+500 22 310095
+404 108 4934718
+422 2 2254
+301 24 6386
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referrer
+BEGIN_SIDER_404 29
+/_ignition/execute-solution 1 -
+/catalog/iashhiki-dlia-instrumentov 2 -
+/storage/page_content/01JZZ3V0HZM7MPMJETZ4GK6W4E.svg 1 https://perf.by/
+/assets/i/favicon.png/ads.txt 1 -
+/catalog/ledobury-dlya-rybalki 1 https://perf.by/catalog/aksessuary
+/css/support_parent.css 1 -
+/storage/thumb/slider/w1200_h310_01JZZ49CWV5SBZQ0X0AVZBCV0T.webp 1 https://perf.by/
+/order/success/9 1 https://perf.by/cart
+/js/lkk_ch.js 1 -
+/build/i/ul-checkbox-before.svg 15 https://perf.by/build/assets/app-hT2D_FEZ.css
+/storage/thumb/page_content/w1360_h285_01JZZ3WCDZD9TZGH8EP0CCBXGS.jpg 1 https://perf.by/
+/storage/page_content/01JZZ3V0HW56ZNXNGGF4W4W6EY.svg 1 https://perf.by/
+/storage/page_content/01JZZ3V0HYVSX7NMKZ4Q5YAYW5.svg 1 https://perf.by/
+/catalog/kompressornye-golovy-i-dvigateli 1 https://perf.by/catalog
+/assets/i/favicon.png/app-ads.txt 1 -
+/catalog/aksessuary 3 https://perf.by/catalog/ledobury-dlya-rybalki
+/catalog/gidroakkumulyatory-i-rasshiritelnye-baki 1 https://perf.by/catalog
+/ 62 -
+/js/twint_ch.js 1 -
+/assets/i/favicon.png/sellers.json 1 -
+/robots.txt 1 -
+/FileZilla.xml 1 -
+/storage/no-thumb.png 1 https://perf.by/
+/storage/ 1 https://perf.by/product/radiopriemnik-cr-1803-1334801
+/storage/thumb/slider/w1200_h310_01JZZ476XN4Y6031MJNMB3M0ZS.webp 1 https://perf.by/
+/admin%E2%80%8B 2 -
+/favicon.png 1 -
+/enhancecp 1 -
+/storage/page_content/01JZZ3V0HRDTVC7MC7W05VD382.svg 1 https://perf.by/
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 25 first Hits must be first (order not required for others)
+BEGIN_VISITOR 80
+37.214.30.191 1204 1205 103675907 20260228112907
+82.209.222.116 109 110 7483814 20260227112108
+37.214.70.48 45 45 685854 20260225235419
+46.216.179.116 34 34 525577 20260225171215
+66.249.81.165 32 32 542792 20260227150924
+46.216.179.59 25 25 440520 20260227150941
+66.249.81.163 24 24 403840 20260228130715
+66.249.81.164 22 22 364228 20260228130717
+74.125.210.96 12 12 193682 20260227150737
+74.125.210.110 11 11 183586 20260227150728
+74.125.210.109 10 10 160911 20260228130719
+86.57.154.252 7 7 125305 20260227135227
+74.125.215.197 7 7 109884 20260226211456
+74.125.215.195 6 6 98974 20260226211333
+74.125.215.196 6 6 92781 20260226211456
+192.104.34.34 6 6 99668 20260228205226
+66.102.9.134 5 5 83177 20260225193715
+66.102.9.35 5 5 85768 20260228130718
+66.102.9.36 4 4 73109 20260228130717
+66.102.9.37 4 4 68954 20260226204826
+66.102.9.135 4 4 67382 20260225235421
+66.102.9.133 4 4 67896 20260225193946
+141.51.110.126 4 4 61201 20260227060604
+184.94.240.88 4 4 310908 20260227093229
+152.53.246.211 4 4 60060 20260227043711
+89.248.172.33 1 1 15395 20260228151412
+119.13.206.82 1 1 15015 20260227025944
+54.209.165.177 1 1 15397 20260228090750
+45.91.84.78 3 3 43102 20260226063508
+178.128.89.25 1 1 15582 20260226050202
+216.194.82.68 1 1 15398 20260227202337
+5.133.192.133 1 1 15015 20260226231339
+66.249.83.109 1 1 19126 20260227150944
+188.17.202.215 1 1 15278 20260227151041
+185.119.2.250 1 1 16300 20260226150913
+193.32.126.237 1 1 15396 20260228150946
+213.188.72.230 1 1 15016 20260226225643
+79.137.138.61 1 1 15582 20260225174548
+59.132.64.66 2 2 15397 20260228154447
+79.173.88.140 1 1 14041 20260226043809
+46.216.175.104 1 1 19124 20260227173229
+128.90.107.247 1 1 15398 20260228151316
+23.27.145.189 1 1 15571 20260225154712
+95.181.234.22 1 1 15400 20260228195857
+82.208.127.34 1 1 16305 20260226150814
+54.162.53.4 2 2 30031 20260227065202
+79.137.151.170 1 1 15582 20260225174547
+95.181.233.16 2 2 30798 20260227193947
+41.216.188.116 1 1 15398 20260228185205
+66.249.93.142 1 1 19123 20260227150943
+139.99.170.109 1 1 15397 20260228151253
+149.56.85.156 1 1 15016 20260226225647
+40.160.16.154 2 2 29494 20260226202938
+51.81.71.219 1 1 15015 20260226225646
+212.143.94.254 2 2 30796 20260228161505
+181.214.164.72 1 1 15397 20260228221635
+185.119.2.253 1 1 16300 20260226151522
+74.50.107.189 1 1 15396 20260228152356
+151.80.144.77 2 2 30794 20260228043608
+185.88.102.203 1 1 15400 20260228162441
+180.190.53.154 1 1 15398 20260228050046
+46.216.224.105 2 2 33849 20260228130719
+37.214.37.202 1 1 15583 20260225174421
+204.3.127.85 1 1 15017 20260226225642
+14.152.91.232 1 1 15580 20260226125617
+178.128.33.87 1 1 15015 20260227034634
+188.32.4.115 1 1 15279 20260227150658
+66.249.83.96 1 1 19126 20260227150945
+85.174.104.36 1 1 14046 20260226110538
+54.175.169.154 1 1 15396 20260228152656
+188.241.80.108 1 1 15397 20260228210356
+156.146.41.29 2 2 30794 20260228151858
+23.27.145.232 1 1 15572 20260225154701
+66.249.80.1 1 1 15582 20260226083613
+188.32.2.139 1 1 18317 20260226060851
+82.208.125.219 1 1 16299 20260226151248
+51.158.248.215 1 1 15584 20260225220126
+23.27.145.196 1 1 15588 20260226155828
+3.81.102.6 2 2 30796 20260228161922
+173.239.240.9 1 1 15398 20260228151138
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 4
+20260225 251 252 9669999 34
+20260226 1269 1270 104712117 42
+20260227 105 105 2095166 28
+20260228 39 39 604887 27
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 7
+2mn-5mn 8
+15mn-30mn 3
+5mn-15mn 9
+30s-2mn 12
+1h+ 6
+0s-30s 83
+30mn-1h 10
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 25 first Pages must be first (order not required for others)
+BEGIN_SIDER 204
+/livewire/update 599 94878245 0 0
+/ 146 2519468 65 53
+/catalog 72 1111400 6 4
+/catalog/stroitelnyi-instrument 63 1286227 4 11
+/catalog/benzoinstrument 57 1119526 15 12
+/admin/brands 34 713351 0 0
+/catalog/dacha-sad-i-ogorod 33 678569 3 3
+/livewire/upload-file 32 2489 0 0
+/catalog/akkumulyatornyi-instrument 24 529143 0 2
+/admin/categories 23 662028 0 0
+/catalog/aksessuary 20 456520 1 3
+/admin/products 20 546237 0 0
+/admin/page-contents 15 258805 0 0
+/catalog/tehnika-dlya-doma 14 303964 1 0
+/admin/pages 13 261506 0 0
+/catalog/svarochnoe-oborudovanie 13 260343 2 0
+/admin 12 217471 1 1
+/catalog/shkolnye-tetradi 11 248466 1 2
+/admin/site-menus 10 198638 0 0
+/catalog/rashodnye-materialy 10 184039 1 0
+/catalog/nasosy-bytovye 10 172972 3 0
+/contacts 9 130376 1 2
+/catalog/elektrostancii 9 197818 0 1
+/about-us 9 228213 0 2
+/catalog/iashhiki-dlia-instrumentov 9 158947 5 5
+/admin/categories/6/edit 1 23716 0 0
+/catalog/stroitelnyi-instrument/frezery 1 18245 0 0
+/admin/brands/30/edit 1 15580 0 0
+/catalog/ledobury-dlya-rybalki 3 47741 0 0
+/product/tetrad-karandasiki-1 4 58442 1 0
+/admin/categories/48/edit 1 23744 0 0
+/catalog/vibrotehnika 4 83185 0 0
+/catalog/stroitelnyi-instrument/gravery 1 17494 0 0
+/product/stanok-pss-415135 1 15712 0 0
+/catalog/klimaticheskaya-tehnika 8 123921 1 1
+/catalog/dacha-sad-i-ogorod/motobury-i-benzobury 2 59398 0 0
+/admin/products/63/edit 2 56485 0 0
+/admin/brands/13/edit 1 15574 0 0
+/admin/brands/25/edit 1 15576 0 0
+/admin/products/69/edit 2 57176 0 0
+/catalog/shtativy-i-monopody-dlya-foto-i-videokamer 6 151269 0 0
+/admin/payment-types 3 52912 0 0
+/product/trimmer-gtr-250 1 18112 0 0
+/product/snegouborshhik-st556 1 17348 0 0
+/admin/payment-types/1/edit 1 13491 0 0
+/catalog/gidroakkumulyatory-i-rasshiritelnye-baki 2 49012 0 0
+/catalog/drovokoly 5 97474 1 1
+/admin/products/66/edit 2 57068 0 0
+/admin/categories/create 1 21534 0 0
+/admin/characteristics 3 57607 0 0
+/catalog/stroitelnyi-instrument/montazhnye-pily 1 16585 0 0
+/admin/products/61/edit 2 57054 0 0
+/admin/products/55/edit 2 57875 0 0
+/catalog/tehnika-dlya-doma/vertikalnye-pylesosy 1 15102 0 0
+/catalog/valiki 1 18280 0 0
+/admin/brands/20/edit 1 15576 0 0
+/catalog/radiopriemniki 1 17366 0 0
+/catalog/ventiliatory 1 17737 0 0
+/product/gazonokosilka-lmz51302 1 31860 0 0
+/catalog/pompy 1 15609 0 0
+/admin/feed-back/1/edit 1 12960 0 0
+/admin/page-contents/4/edit 2 28531 0 0
+/catalog/izmeritelnyi-instrument 3 69596 0 0
+/admin/products/65/edit 2 57134 0 0
+/product/lazernyi-dalnomer-ct44028 2 35040 0 0
+/catalog/stroitelnyi-instrument/kraskopulty 1 17886 0 0
+/product/trimmer-gtr-5123-lux 1 15990 0 0
+/catalog/promyslennye-pylesosy 5 80068 1 1
+/catalog/svarochnoe-oborudovanie/svarochnye-apparaty 4 70596 0 0
+/admin/site-menus/5/edit 2 28195 0 0
+/admin/settings 5 129648 0 0
+/admin/categories/74/edit 1 23698 0 0
+/admin/page-contents/7/edit 2 26365 0 0
+/catalog/nasadki-na-trimmery-kustorezy-kultivatory 1 17767 0 0
+/admin/pages/4/edit 1 17625 0 0
+/admin/brands/35/edit 1 15584 0 0
+/admin/sliders/1/edit 1 17924 0 0
+/catalog/stroitelnyi-instrument/elektrodreli-i-dreli-shurupoverty 3 55141 0 0
+/catalog/stanki 5 101480 0 1
+/admin/brands/16/edit 1 15576 0 0
+/product/generator-gg951dc 1 17948 0 0
+/admin/categories/39/edit 2 47528 0 0
+/catalog/tehnika-dlya-doma/teplovye-pushki 1 15020 0 0
+/admin/products/57/edit 2 57226 0 0
+/admin/products/62/edit 2 57030 0 0
+/admin/feed-back/2/edit 2 25938 0 0
+/admin/brands/42/edit 1 15575 0 0
+/catalog/slangi-vysokogo-davleniia 1 31717 0 0
+/admin/products/96/edit 1 28172 0 0
+/admin/products/67/edit 2 57116 0 0
+/product/trimmer-h-143-pro 1 15822 0 1
+/admin/orders/9/edit 1 17733 0 0
+/sales 2 23662 0 0
+/catalog/nozi-i-sadovye-noznicy 1 16993 0 1
+/admin/pages/create 1 17027 0 0
+/catalog/tehnika-dlya-doma/pylesosy 1 15843 0 0
+/admin/orders 5 86179 0 0
+/catalog/akkumulyatornyi-instrument/akkumulyatory-dlya-instrumenta 3 56814 0 0
+/catalog/zatochnye-stanki-tochila 5 98963 0 0
+/catalog/stroitelnyi-instrument/mehanicheskie-steplery-i-gvozdezabivateli 1 16818 0 0
+/admin/brands/46/edit 1 15585 0 0
+/admin/brands/8/edit 2 31123 0 0
+/admin/brands/12/edit 1 15574 0 0
+/admin/sliders/2/edit 3 53613 0 0
+/catalog/mebel-dlya-vannoi 5 79396 0 2
+/admin/categories/26/edit 2 47464 0 0
+/catalog/dacha-sad-i-ogorod/kultivatory-i-motobloki 2 33502 0 0
+/product/trimmer-tb-3036-1-all1-xlt-set-1334872-s-2-mia-akb 4 59351 0 1
+/product/drel-surupovert-ad-2150qbl-s-2-mia-akb-keis 1 18576 0 0
+/catalog/aksessuary/avtomobilnye-kompressory 4 68761 3 4
+/catalog/rashodnye-materialy/dvigateli 1 17389 0 0
+/admin/brands/17/edit 1 15574 0 0
+/admin/page-contents/2/edit 2 34863 0 0
+/admin/sliders 6 103555 0 0
+/admin/payment-types/2/edit 1 13521 0 0
+/admin/brands/19/edit 1 15582 0 0
+/admin/brands/18/edit 1 15576 0 0
+/admin/categories/65/edit 1 23706 0 0
+/catalog/dacha-sad-i-ogorod/gazonokosilki 1 17674 0 0
+/cart 4 81070 0 0
+/catalog/svarochnoe-oborudovanie/svarochnye-maski 1 16680 0 0
+/admin/login 4 69726 1 1
+/catalog/stroitelnyi-instrument/benzo-i-elektropily 3 55304 0 0
+/catalog/dacha-sad-i-ogorod/kustorezy-i-vysotorezy 1 17719 0 0
+/admin/products/58/edit 1 27795 0 0
+/admin/brands/15/edit 1 15574 0 0
+/admin/brands/31/edit 1 15577 0 0
+/_debugbar/open 8 1996267 0 0
+/catalog/navesnoe-oborudovanie-dlia-sadovoi-texniki 6 94577 0 2
+/catalog/kompressornye-golovy-i-dvigateli 5 96367 2 0
+/admin/products/68/edit 2 57075 0 0
+/admin/feed-back 6 97343 0 0
+/payments 5 63628 0 1
+/admin/site-menus/create 1 13934 0 0
+/_debugbar/assets/javascript 1 282258 1 0
+/admin/deliveries/2/edit 1 16230 0 0
+/product/svarocnyi-invertor-mma-225 1 15912 0 0
+/product/radiopriemnik-cr-1803-1334801 2 26598 0 0
+/admin/brands/45/edit 1 15587 0 0
+/product/benzopila-a256-18 1 34097 0 0
+/admin/categories/7/edit 2 47674 0 0
+/order/success/8 4 45534 0 1
+/catalog/dacha-sad-i-ogorod/trimmery 5 89467 0 0
+/order/success/9 4 39632 0 3
+/admin/categories/18/edit 1 23760 0 0
+/product/elektriceskaia-pila-118-14 1 33995 0 0
+/product/drenaznyi-nasos-gp752f 1 17508 0 0
+/admin/brands/7/edit 1 15559 0 0
+/product/akkumuliatornaia-pila-cec-2518-2-1334828-s-1-im-akb 4 59419 2 0
+/admin/brands/33/edit 1 15580 0 0
+/admin/site-menus/1/edit 2 28195 0 0
+/catalog/kompressory 2 45926 0 0
+/delivery 7 83192 3 0
+/catalog/polivocnye-slangi 1 16554 0 0
+/admin/users/2/edit 1 13918 0 0
+/admin/products/4/edit 1 28084 0 0
+/catalog/stroitelnyi-instrument/shlifovalnye-mashiny 3 56127 0 0
+/admin/brands/10/edit 2 31136 0 0
+/admin/deliveries/3/edit 1 15894 0 0
+/catalog/stroitelnyi-instrument/lobziki 5 91614 0 0
+/admin/categories/50/edit 1 23866 0 0
+/order/success/7 1 11386 0 1
+/privacy 1 10395 0 1
+/catalog/dacha-sad-i-ogorod/vozduhoduvki 2 35226 0 0
+/admin/users 3 50864 0 0
+/catalog/podmetalnye-masiny 5 81291 2 1
+/admin/page-contents/5/edit 4 51388 0 0
+/admin/brands/38/edit 1 15578 0 0
+/catalog/prinadleznosti-dlia-elektroinstrumenta 5 77719 0 0
+/admin/products/64/edit 2 57126 0 0
+/order/create 3 198 0 0
+/catalog/betonomeshalki 9 203835 0 0
+/admin/pages/10/edit 1 17675 0 0
+/admin/deliveries/1/edit 1 13998 0 0
+/catalog/pnevmaticheskii-instrument 2 49951 0 0
+/catalog/kleikie-lenty 1 18585 0 0
+/product/trimmer-akkumuliatornyi-tb-3036-0333290-bez-akb 4 59282 0 1
+/admin/pages/1/edit 2 35207 0 0
+/catalog/dacha-sad-i-ogorod/moiki-vysokogo-davleniya 1 17669 0 0
+/admin/brands/37/edit 1 15577 0 0
+/catalog/benzoinstrument/benzopily 9 159414 4 0
+/product/unknown-product-81 1 32999 0 0
+/admin/products/40/edit 2 58130 0 0
+/news-list 4 46792 0 2
+/admin/page-contents/6/edit 1 12856 0 0
+/admin/brands/28/edit 1 15584 0 0
+/cart/add 3 102 0 0
+/_debugbar/assets/stylesheets 1 349666 0 0
+/product/benzinovyi-generator-pe-4000rsi 4 58967 0 3
+/catalog/benzoinstrument/generatory 4 73531 0 0
+/catalog/dacha-sad-i-ogorod/kliningovoe-oborudovanie-i-uborochnaya-tehnika 1 13693 0 0
+/admin/pages/11/edit 1 17685 0 0
+/product/drel-surupovert-ad-df18dw-s-2-mia-akb-keis 1 19003 0 0
+/catalog/rashodnye-materialy-1 4 54720 0 0
+/product/elektriceskaia-cepnaia-pila-120-14 1 31610 0 0
+/product/motokultivator-bc4311 1 15582 0 0
+/admin/site-menus/4/edit 1 14095 0 0
+/admin/brands/36/edit 1 15579 0 0
+/admin/deliveries 3 52132 0 0
+/admin/brands/27/edit 1 15574 0 0
+/product/pylesos-ct42034 1 33191 0 0
+/admin/news 3 61665 0 0
+/catalog/renovatory 2 63627 0 0
+/product/svarocnyi-invertor-multimig-227 1 14780 0 0
+END_SIDER
+
+# Payload Range - Payload Frequency
+BEGIN_FILESIZE 7
+1K-2K 90
+100-500 63
+0-44 90
+5K+ 3111
+44-100 31
+500-1K 1
+2K-5K 75
+END_FILESIZE
+
+# Request Time Range - Request Time Frequency
+BEGIN_REQUESTTIME 0
+END_REQUESTTIME
