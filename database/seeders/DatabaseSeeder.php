@@ -15,9 +15,15 @@ class DatabaseSeeder extends Seeder
     {
         // User::factory(10)->create();
 
-        User::factory()->create([
+        \App\Models\User::factory()->create([
             'name' => 'Test User',
             'email' => 'test@example.com',
         ]);
+
+        \App\Models\Setting::create(['data_key' => 'contacts', 'data_val' => []]);
+        \App\Models\Setting::create(['data_key' => 'content', 'data_val' => []]);
+        \App\Models\Setting::create(['data_key' => 'metrics', 'data_val' => []]);
+        \App\Models\Setting::create(['data_key' => 'general', 'data_val' => []]);
+        \App\Models\Page::create(['title' => 'Home', 'slug' => '/', 'is_active' => true]);
     }
 }
