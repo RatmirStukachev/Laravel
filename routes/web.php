@@ -28,6 +28,8 @@ Route::get('/search', [SearchController::class, 'search'])->name('search');
 
 Route::get('/product/{product:slug}', [ProductController::class, 'getProduct'])->name('product');
 
+Route::get('/brand/{brand:slug}', [App\Http\Controllers\BrandController::class, 'showBrand'])->name('brand.show');
+
 Route::prefix('cart')->group(function () {
     Route::get('/', [CartController::class, 'getCart'])->name('cart.index');
     Route::post('/add', [CartController::class, 'addProduct'])->name('cart.add');

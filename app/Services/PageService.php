@@ -131,4 +131,15 @@ class PageService
             $category->isThirdLevel() => $this->setLastCategoryPage($category)
         };
     }
+
+    public function setBrandPage(Brand $brand, $page)
+    {
+        if(!$brand->seo) {
+            $this->seoService->generate($page);
+        } else {
+            $this->seoService->generate($brand);
+        }
+
+        $this->breadcrumbsService->pageBrand($page)->generate();
+    }
 }

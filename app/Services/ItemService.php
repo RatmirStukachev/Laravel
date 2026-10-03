@@ -350,6 +350,44 @@ class ItemService
         return $products;
     }
 
+    public function getProductsForBrand(Brand $brand, Request $request)
+    {
+        $count = TextService::getSettingValue('content', 'products_count') ?: 15;
+
+        $products = Product::isActive()
+            ->with('category')
+            ->where('brand_id', $brand->id)
+            ->whereRelation('category', 'is_active', '=', true) // Только активные категории
+            ->when($request->min_price, function ($query) use ($request) {
+                $query->where('price', '>=', $request->min_price);
+            })
+            ->when($request->max_price, function ($query) use ($request) {
+                $query->where('price', '<=', $request->max_price);
+            })
+            ->orderByRaw('
+                CASE
+                    WHEN balance > 0 THEN 0
+                    ELSE 1
+                END
+            ')
+            ->when($request->sort, function ($query) use ($request) {
+                return match ($request->sort) {
+                    'poor' => $query->orderBy('products.price', 'asc'),
+                    'expensive' => $query->orderBy('products.price', 'desc'),
+                    'is_choise' => $query->orderByRaw('CASE WHEN products.is_choice = 1 THEN 1 ELSE 0 END DESC, products.updated_at DESC'),
+                    'is_new' => $query->orderByRaw('CASE WHEN products.is_choice = 1 THEN 1 ELSE 0 END DESC, products.updated_at DESC'),
+                    default => $query
+                };
+            })
+            ->paginate((int) $count);
+
+        if ($products->currentPage() > $products->lastPage() && $products->lastPage() > 0) {
+            abort(404);
+        }
+
+        return $products;
+    }
+
     /**
      * @return array<int, int>
      */
